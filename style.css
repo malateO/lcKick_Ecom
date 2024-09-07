@@ -103,6 +103,22 @@ h4 {
 
 /* REUSABLE SELECTION */
 
+.icon-small,
+.icon-large {
+  padding: 0 0.25em;
+  font-weight: normal;
+}
+
+.icon-small {
+  font-size: 1.5em;
+  margin-left: auto;
+}
+
+.icon-large {
+  font-size: 1.7em;
+  padding: 0 0.75em 0 0;
+}
+
 /* ANNOUNCEMENT BAR */
 
 .announcement-bar {
@@ -115,6 +131,14 @@ h4 {
 
 .announcement-bar h5 {
     color: var(--white-color);
+}
+
+/* HEADER ROW */
+
+.ins-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* RESPONSIVE */
