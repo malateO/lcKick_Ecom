@@ -119,6 +119,35 @@ h4 {
   padding: 0 0.75em 0 0;
 }
 
+.flexitem {
+  display: flex;
+  align-items: center;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.icon-small,
+.icon-large {
+  display: flex;
+  align-items: center;
+  padding: 0 0.25em;
+  font-weight: normal;
+}
+
+.icon-small {
+  font-size: 1.25em;
+  margin-left: auto;
+}
+
+.icon-large {
+  font-size: 1.7em;
+  padding: 0 0.75em 0 0;
+}
+
 /* 1. ANNOUNCEMENT BAR */
 
 .announcement-bar {
@@ -148,6 +177,7 @@ h4 {
   display: flex;
   justify-content: center;
   padding: 1em;
+  width: 10vw;
 }
 
 /* 2. HEADER ROW
@@ -174,6 +204,23 @@ h4 {
 .ins-header-right {
   display: flex;
   padding: 1em;
+}
+
+/* 3. MEGA MENU */
+
+.mega-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mega-menu nav > ul {
+  line-height: 100px;
+  gap: 9em;
+}
+
+.mega-menu nav > ul > li > a {
+  display: flex;
 }
 
 /* RESPONSIVE */
